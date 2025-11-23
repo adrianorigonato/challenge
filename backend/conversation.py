@@ -5,8 +5,8 @@ import requests
 from psycopg2.extensions import connection as PgConnection
 from psycopg2.extras import Json
 
-from config import settings, build_groq_headers
-from chunking import search_similar, build_context_from_results
+from .config import settings, build_groq_headers
+from .chunking import search_similar, build_context_from_results
 
 ConversationTurn = Dict[str, str]
 ConversationHistory = List[ConversationTurn]

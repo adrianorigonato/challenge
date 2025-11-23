@@ -5,7 +5,7 @@ from typing import Dict, Optional, Tuple
 import pdfplumber
 import requests
 
-from config import (
+from .config import (
     AUDIO_EXTS,
     IMAGE_EXTS,
     VIDEO_EXTS,

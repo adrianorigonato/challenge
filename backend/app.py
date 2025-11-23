@@ -8,8 +8,8 @@ from fastapi import Depends, FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from db import get_connection, init_db
-from orchestrator import (
+from .db import get_connection, init_db
+from .orchestrator import (
     analyze_and_generate,
     handle_chat_message,
     ingest_file,

@@ -3,7 +3,7 @@ from typing import Optional
 import psycopg2
 from psycopg2.extensions import connection as PgConnection
 
-from config import settings
+from .config import settings
 
 # conexao postgres
 def get_connection() -> PgConnection:

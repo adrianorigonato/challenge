@@ -5,8 +5,8 @@ import requests
 from psycopg2.extensions import connection as PgConnection
 from psycopg2.extras import Json
 
-from config import settings, build_groq_headers
-from conversation import ConversationHistory
+from .config import settings, build_groq_headers
+from .conversation import ConversationHistory
 
 
 def analyze_conversation_with_groq(

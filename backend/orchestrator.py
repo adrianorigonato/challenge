@@ -3,8 +3,8 @@ from typing import Any, Dict, List, Optional
 
 from psycopg2.extensions import connection as PgConnection
 
-from db import init_db
-from extract import (
+from .db import init_db
+from .extract import (
     AUDIO_EXTS,
     VIDEO_EXTS,
     IMAGE_EXTS,
@@ -13,15 +13,15 @@ from extract import (
     transcribe_video_file,
     describe_image_with_groq,
 )
-from chunking import (
+from .chunking import (
     split_text_into_chunks,
     embed_texts,
     insert_documents,
     is_already_ingested,
 )
-from conversation import chat_step, create_conversation, get_conversation_history
-from conversation_analysis import analyze_conversation_with_groq, save_profile_information
-from content_generation import generate_personalized_contents
+from .conversation import chat_step, create_conversation, get_conversation_history
+from .conversation_analysis import analyze_conversation_with_groq, save_profile_information
+from .content_generation import generate_personalized_contents
 
 
 # INGESTÃO DE ARQUIVOS

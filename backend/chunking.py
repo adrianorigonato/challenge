@@ -5,7 +5,7 @@ from typing import Any, Dict, List, Optional
 import requests
 from psycopg2.extensions import connection as PgConnection
 
-from config import settings, build_openrouter_headers
+from .config import settings, build_openrouter_headers
 
 #Divide um texto em chunks, com overlap de parágrafos.
 def split_text_into_chunks(
