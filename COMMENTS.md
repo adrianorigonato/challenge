@@ -1,5 +1,4 @@
-## Acesse: https://challenge-ozlg.onrender.com/ para testar. 
-**(Obs.: aguarde de 30 a 80 segundos até terminar de carregar o deploy)**
+** Acesse: https://challenge-ozlg.onrender.com/ para testar. (Obs.: aguarde de 30 a 80 segundos até terminar de carregar o deploy)**
 
 ##Decisão da arquitetura utilizada A arquitetura foi definida para
 manter, principalmente, o foco no objetivo pedagógico da aplicação, sem
