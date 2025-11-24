@@ -20,8 +20,6 @@
 
 ---
 
-**Como Funciona**
-
 ### 1. Ingestão de arquivos
 
 O usuário pode enviar:
